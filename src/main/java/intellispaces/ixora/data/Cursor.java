@@ -1,4 +1,4 @@
-package intellispaces.ixora.datastructures;
+package intellispaces.ixora.data;
 
 import tech.intellispacesframework.core.annotation.Domain;
 import tech.intellispacesframework.core.annotation.Transition;
