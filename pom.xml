@@ -7,7 +7,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>intellispaces-ixora-data</artifactId>
+    <artifactId>intellispaces-ixora-structures</artifactId>
     <packaging>jar</packaging>
 
     <build>
@@ -35,10 +35,10 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!-- Intellispaces Basic -->
+        <!-- Intellispaces Ixora -->
         <dependency>
             <groupId>intellispaces</groupId>
-            <artifactId>intellispaces-basic</artifactId>
+            <artifactId>intellispaces-ixora-basic</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

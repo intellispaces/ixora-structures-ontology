@@ -1,4 +1,4 @@
-package intellispaces.ixora.data;
+package intellispaces.ixora.structures.collection;
 
 import tech.intellispacesframework.core.annotation.Domain;
 import tech.intellispacesframework.core.annotation.Transition;
@@ -12,7 +12,7 @@ import tech.intellispacesframework.core.annotation.Transition;
 public interface Cursor<E> {
 
   @Transition("8816842b-3aa7-4421-b2c5-3ac5b3da9b24")
-  intellispaces.core.Domain<E> elementDomain();
+  intellispaces.ixora.basic.Domain<E> elementDomain();
 
   @Transition("3089ff8a-0bfc-4ad0-ad58-093b84690e66")
   E value();
