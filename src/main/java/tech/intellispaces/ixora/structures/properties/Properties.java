@@ -1,4 +1,4 @@
-package intellispaces.ixora.structures.properties;
+package tech.intellispaces.ixora.structures.properties;
 
 import tech.intellispacesframework.core.annotation.Domain;
 import tech.intellispacesframework.core.annotation.Transition;

@@ -1,4 +1,4 @@
-package intellispaces.ixora.structures.properties;
+package tech.intellispaces.ixora.structures.properties;
 
 import tech.intellispacesframework.core.annotation.Ontology;
 import tech.intellispacesframework.core.annotation.Transition;
@@ -11,4 +11,7 @@ public interface PropertiesOntology {
 
   @Transition("9bf2dd05-5c47-4bf7-9189-c8000699a8f1")
   Properties bytesToProperties(byte[] bytes) throws InvalidPropertyException;
+
+  @Transition("cafc0a2e-a1da-44e1-997f-2db62f7e385c")
+  <T> T propertiesToObject(Properties properties, Class<T> objectDomain);
 }

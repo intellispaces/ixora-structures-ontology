@@ -1,4 +1,4 @@
-package intellispaces.ixora.structures.properties;
+package tech.intellispaces.ixora.structures.properties;
 
 import tech.intellispacesframework.commons.exception.UnexpectedViolationException;
 
