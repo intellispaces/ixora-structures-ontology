@@ -20,4 +20,7 @@ public interface Properties {
 
   @Transition("e033ddc5-7f4d-4bbd-8958-8b9c34fdfc95")
   Properties getProperties(String path) throws InvalidPropertyException;
+
+  @Transition("b48ef2de-6bbc-4c9c-a0b1-e3f1c6ca33d1")
+  Properties getList(String path) throws InvalidPropertyException;
 }
