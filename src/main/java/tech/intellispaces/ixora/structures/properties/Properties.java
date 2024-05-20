@@ -21,6 +21,15 @@ public interface Properties {
   @Transition("e033ddc5-7f4d-4bbd-8958-8b9c34fdfc95")
   Properties getProperties(String path) throws InvalidPropertyException;
 
+  @Transition("e8e1fb09-b22e-4e66-bee5-34db85e4ada3")
+  int[] getIntegerList(String path) throws InvalidPropertyException;
+
+  @Transition("101bf792-aa89-4114-ba58-26d78487a4a5")
+  double[] getDoubleList(String path) throws InvalidPropertyException;
+
+  @Transition("f6d6c228-cfe0-4bcd-80b8-b0bd23e606c7")
+  String[] getStringList(String path) throws InvalidPropertyException;
+
   @Transition("b48ef2de-6bbc-4c9c-a0b1-e3f1c6ca33d1")
-  Properties getList(String path) throws InvalidPropertyException;
+  Properties[] getPropertiesList(String path) throws InvalidPropertyException;
 }
