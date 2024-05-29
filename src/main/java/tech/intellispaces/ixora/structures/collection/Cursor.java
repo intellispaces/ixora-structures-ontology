@@ -15,7 +15,7 @@ public interface Cursor<E> {
   tech.intellispaces.ixora.basic.Domain<E> elementDomain();
 
   @Transition("3089ff8a-0bfc-4ad0-ad58-093b84690e66")
-  E value();
+  E currentValue();
 
   @Transition("22a53488-46f1-4727-bebf-1ed04c76a51e")
   boolean hasNext();
