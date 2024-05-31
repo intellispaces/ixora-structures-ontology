@@ -1,6 +1,6 @@
 package tech.intellispaces.ixora.structures.properties;
 
-import tech.intellispacesframework.commons.exception.UnexpectedViolationException;
+import tech.intellispaces.framework.commons.exception.UnexpectedViolationException;
 
 public class InvalidPropertyException extends UnexpectedViolationException {
 

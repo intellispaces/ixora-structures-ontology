@@ -1,7 +1,7 @@
 package tech.intellispaces.ixora.structures.properties;
 
-import tech.intellispacesframework.core.annotation.Ontology;
-import tech.intellispacesframework.core.annotation.Transition;
+import tech.intellispaces.framework.core.annotation.Ontology;
+import tech.intellispaces.framework.core.annotation.Transition;
 
 @Ontology
 public interface PropertiesOntology {

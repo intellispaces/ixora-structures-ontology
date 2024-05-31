@@ -1,7 +1,7 @@
 package tech.intellispaces.ixora.structures.collection;
 
-import tech.intellispacesframework.core.annotation.Domain;
-import tech.intellispacesframework.core.annotation.Transition;
+import tech.intellispaces.framework.core.annotation.Domain;
+import tech.intellispaces.framework.core.annotation.Transition;
 
 /**
  * One-way cursor.

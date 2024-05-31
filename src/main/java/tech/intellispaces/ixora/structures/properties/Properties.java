@@ -1,8 +1,8 @@
 package tech.intellispaces.ixora.structures.properties;
 
 import tech.intellispaces.ixora.structures.collection.List;
-import tech.intellispacesframework.core.annotation.Domain;
-import tech.intellispacesframework.core.annotation.Transition;
+import tech.intellispaces.framework.core.annotation.Domain;
+import tech.intellispaces.framework.core.annotation.Transition;
 
 /**
  * Properties are a hierarchical set of named properties.

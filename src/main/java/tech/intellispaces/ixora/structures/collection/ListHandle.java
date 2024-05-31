@@ -1,6 +1,6 @@
 package tech.intellispaces.ixora.structures.collection;
 
-import tech.intellispacesframework.core.object.ObjectHandle;
+import tech.intellispaces.framework.core.object.ObjectHandle;
 
 public interface ListHandle<E> extends ObjectHandle<List<E>>, List<E> {
 
