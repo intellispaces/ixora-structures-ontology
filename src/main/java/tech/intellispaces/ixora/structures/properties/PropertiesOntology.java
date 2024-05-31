@@ -13,5 +13,5 @@ public interface PropertiesOntology {
   Properties bytesToProperties(byte[] bytes) throws InvalidPropertyException;
 
   @Transition("cafc0a2e-a1da-44e1-997f-2db62f7e385c")
-  <T> T propertiesToObject(Properties properties, Class<T> objectDomain);
+  <T> T propertiesToData(Properties properties, Class<T> domainClass);
 }
