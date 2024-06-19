@@ -10,6 +10,9 @@ import tech.intellispaces.framework.core.annotation.Transition;
 @Domain("eccd18a1-ec7a-4949-9acd-2b2fa9576da1")
 public interface Properties {
 
+  @Transition("ea111b97-c025-4d74-8466-d462c4c87efd")
+  Object value(String path) throws InvalidPropertyException;
+
   @Transition("4e01aa7a-3fd4-4509-9387-921c30ecf5f9")
   int integerValue(String path) throws InvalidPropertyException;
 
