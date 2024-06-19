@@ -36,4 +36,7 @@ public interface Properties {
 
   @Transition("b48ef2de-6bbc-4c9c-a0b1-e3f1c6ca33d1")
   List<? extends Properties> propertiesList(String path) throws InvalidPropertyException;
+
+  @Transition("d1b7dcf8-b8d5-41d0-8d19-6faee74a852c")
+  int size();
 }
