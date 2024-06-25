@@ -2,6 +2,7 @@ package tech.intellispaces.ixora.structures.collection;
 
 import tech.intellispaces.framework.core.annotation.Domain;
 import tech.intellispaces.framework.core.annotation.Transition;
+import tech.intellispaces.framework.core.traverse.TraverseTypes;
 
 /**
  * One-way cursor.
@@ -15,11 +16,11 @@ public interface Cursor<E> {
   tech.intellispaces.ixora.basic.Domain<E> elementDomain();
 
   @Transition("3089ff8a-0bfc-4ad0-ad58-093b84690e66")
-  E currentValue();
+  E value();
 
   @Transition("22a53488-46f1-4727-bebf-1ed04c76a51e")
   boolean hasNext();
 
-  @Transition("493c84b9-36cc-4312-b887-a37f8e21123e")
-  Cursor<E> sameCursorAfterShift();
+  @Transition(value = "493c84b9-36cc-4312-b887-a37f8e21123e", allowedTraverse = TraverseTypes.Moving)
+  Cursor<E> next();
 }
