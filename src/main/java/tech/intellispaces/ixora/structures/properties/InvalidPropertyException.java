@@ -1,8 +1,8 @@
 package tech.intellispaces.ixora.structures.properties;
 
-import tech.intellispaces.framework.commons.exception.UnexpectedViolationException;
+import tech.intellispaces.framework.core.exception.TraverseException;
 
-public class InvalidPropertyException extends UnexpectedViolationException {
+public class InvalidPropertyException extends TraverseException {
 
   InvalidPropertyException(String messageTemplate, Object... messageParams) {
     super(messageTemplate, messageParams);
