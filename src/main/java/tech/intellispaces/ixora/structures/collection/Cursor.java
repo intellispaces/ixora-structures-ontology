@@ -22,5 +22,5 @@ public interface Cursor<E> {
   boolean hasNext();
 
   @Transition(value = "493c84b9-36cc-4312-b887-a37f8e21123e", type = TraverseTypes.Moving)
-  Cursor<E> next();
+  Cursor<E> shift();
 }
