@@ -1,4 +1,4 @@
-package tech.intellispaces.ixora.structures.properties;
+package tech.intellispaces.ixora.structures.exception;
 
 import tech.intellispaces.framework.core.exception.TraverseException;
 

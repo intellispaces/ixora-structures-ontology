@@ -13,7 +13,7 @@ import tech.intellispaces.framework.core.traverse.TraverseTypes;
 public interface Cursor<E> {
 
   @Transition("8816842b-3aa7-4421-b2c5-3ac5b3da9b24")
-  tech.intellispaces.ixora.basic.Domain<E> elementDomain();
+  Class<E> elementDomain();
 
   @Transition("3089ff8a-0bfc-4ad0-ad58-093b84690e66")
   E value();
@@ -22,5 +22,5 @@ public interface Cursor<E> {
   boolean hasNext();
 
   @Transition(value = "493c84b9-36cc-4312-b887-a37f8e21123e", type = TraverseTypes.Moving)
-  Cursor<E> shift();
+  Void shift();
 }

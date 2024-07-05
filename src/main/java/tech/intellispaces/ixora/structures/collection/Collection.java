@@ -12,7 +12,7 @@ import tech.intellispaces.framework.core.annotation.Transition;
 public interface Collection<E> {
 
   @Transition("855a617e-1281-4f23-ac3b-be45e045b337")
-  tech.intellispaces.ixora.basic.Domain<E> elementDomain();
+  Class<E> elementDomain();
 
   @Transition("ac251f1d-ecd8-45a0-bd05-972c71ed26aa")
   int size();
