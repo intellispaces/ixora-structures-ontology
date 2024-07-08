@@ -1,8 +1,8 @@
-package tech.intellispaces.ixora.structures.properties;
+package intellispaces.ixora.structures.properties;
 
 import tech.intellispaces.framework.core.annotation.Ontology;
 import tech.intellispaces.framework.core.annotation.Transition;
-import tech.intellispaces.ixora.structures.exception.InvalidPropertyException;
+import intellispaces.ixora.structures.exception.InvalidPropertyException;
 
 @Ontology
 public interface PropertiesOntology {
