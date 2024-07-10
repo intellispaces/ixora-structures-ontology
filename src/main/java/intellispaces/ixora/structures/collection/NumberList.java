@@ -19,10 +19,10 @@ public interface NumberList<E extends Number> extends List<Number> {
   List<E> asList();
 
   @Override
-  default Class<? extends Number> elementDomain() {
-    return Number.class;
+  default Class<E> elementDomain() {
+    return (Class<E>) Number.class;
   }
 
   @Override
-  Number element(int index);
+  E element(int index);
 }
