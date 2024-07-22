@@ -1,11 +1,11 @@
-package intellispaces.ixora.structures.properties;
+package intellispaces.ixora.mindstructs.structures.properties;
 
-import intellispaces.ixora.structures.collection.DoubleList;
-import intellispaces.ixora.structures.collection.IntegerList;
+import intellispaces.ixora.mindstructs.structures.collection.DoubleList;
+import intellispaces.ixora.mindstructs.structures.exception.InvalidPropertyException;
+import intellispaces.ixora.mindstructs.structures.collection.IntegerList;
 import tech.intellispaces.framework.core.annotation.Domain;
 import tech.intellispaces.framework.core.annotation.Transition;
-import intellispaces.ixora.structures.collection.StringList;
-import intellispaces.ixora.structures.exception.InvalidPropertyException;
+import intellispaces.ixora.mindstructs.structures.collection.StringList;
 
 /**
  * Properties are a hierarchical set of named properties.

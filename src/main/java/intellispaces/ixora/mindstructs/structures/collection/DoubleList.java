@@ -1,4 +1,4 @@
-package intellispaces.ixora.structures.collection;
+package intellispaces.ixora.mindstructs.structures.collection;
 
 import tech.intellispaces.framework.core.annotation.Domain;
 import tech.intellispaces.framework.core.annotation.Transition;

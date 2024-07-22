@@ -7,7 +7,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ixora-structures-ontology</artifactId>
+    <groupId>mindstructs</groupId>
+    <artifactId>mindstructs-structures-ontology</artifactId>
     <packaging>jar</packaging>
     <description>General data structures</description>
 
@@ -32,10 +33,10 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!-- Ixora -->
+        <!-- Mindstructs -->
         <dependency>
-            <groupId>intellispaces</groupId>
-            <artifactId>ixora-core-ontology</artifactId>
+            <groupId>mindstructs</groupId>
+            <artifactId>mindstructs-core-ontology</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

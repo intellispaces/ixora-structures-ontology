@@ -1,4 +1,4 @@
-package intellispaces.ixora.structures.exception;
+package intellispaces.ixora.mindstructs.structures.exception;
 
 import tech.intellispaces.framework.core.exception.TraverseException;
 

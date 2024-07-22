@@ -1,9 +1,9 @@
-package intellispaces.ixora.structures.properties;
+package intellispaces.ixora.mindstructs.structures.properties;
 
-import intellispaces.ixora.structures.collection.Collection;
+import intellispaces.ixora.mindstructs.structures.collection.Collection;
 import tech.intellispaces.framework.core.annotation.Domain;
 import tech.intellispaces.framework.core.annotation.Transition;
-import intellispaces.ixora.structures.collection.List;
+import intellispaces.ixora.mindstructs.structures.collection.List;
 
 @Domain("01908202-a961-7987-96ad-e2b5908d7cab")
 public interface PropertiesList extends List<Properties> {
