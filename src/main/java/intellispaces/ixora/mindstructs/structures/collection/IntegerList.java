@@ -10,6 +10,9 @@ public interface IntegerList extends NumberList<Integer> {
   @Transition("01909080-8b2e-798a-8467-150465a39848")
   Collection<Integer> asCollection();
 
+  /**
+   * Downgrade mapping.
+   */
   @Transition("0190824d-8716-7f90-8c49-fa9a6ee24bcb")
   List<Integer> asList();
 

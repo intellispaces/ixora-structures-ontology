@@ -15,6 +15,9 @@ public interface NumberList<E extends Number> extends List<E> {
   @Transition("0190907f-afde-7de4-a6ee-0ad4363dc3d8")
   Collection<E> asCollection();
 
+  /**
+   * Downgrade mapping.
+   */
   @Transition("01908c74-6c7e-7890-96cd-9dc2531999ef")
   List<E> asList();
 

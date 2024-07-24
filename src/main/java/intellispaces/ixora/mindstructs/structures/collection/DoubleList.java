@@ -10,6 +10,9 @@ public interface DoubleList extends NumberList<Double> {
   @Transition("01909080-c97f-77f1-9a5a-f20dba6ed8a6")
   Collection<Double> asCollection();
 
+  /**
+   * Downgrade mapping.
+   */
   @Transition("01908254-ac97-7643-8cce-d058caad1aba")
   List<Double> asList();
 

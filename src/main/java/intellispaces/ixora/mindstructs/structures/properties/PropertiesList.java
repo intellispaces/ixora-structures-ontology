@@ -12,6 +12,9 @@ public interface PropertiesList extends List<Properties> {
   @Transition("01909082-1dc7-70a0-b24b-643240d62a8a")
   Collection<? extends Properties> asCollection();
 
+  /**
+   * Downgrade mapping.
+   */
   @Transition("01908255-6058-7c54-9377-ed0e1b5d9b68")
   List<? extends Properties> asList();
 

@@ -10,6 +10,9 @@ public interface StringList extends List<String> {
   @Transition("01909081-c018-7001-b637-2256652555f4")
   Collection<String> asCollection();
 
+  /**
+   * Downgrade mapping.
+   */
   @Transition("01908255-05a6-72c8-906c-7134182b2517")
   List<String> asList();
 
