@@ -1,11 +1,14 @@
-package intellispaces.ixora.mindstructs.structures.collection;
+package intellispaces.ixora.structures.collection;
 
-import tech.intellispaces.framework.core.annotation.Domain;
-import tech.intellispaces.framework.core.annotation.Transition;
+import tech.intellispaces.core.annotation.Domain;
+import tech.intellispaces.core.annotation.Transition;
 
 @Domain("019081ff-e48c-773d-b6af-f6f3ec15ced9")
 public interface DoubleList extends NumberList<Double> {
 
+  /**
+   * Downgrade mapping.
+   */
   @Override
   @Transition("01909080-c97f-77f1-9a5a-f20dba6ed8a6")
   Collection<Double> asCollection();

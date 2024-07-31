@@ -1,6 +1,6 @@
-package intellispaces.ixora.mindstructs.structures.properties;
+package intellispaces.ixora.structures.properties;
 
-import tech.intellispaces.framework.core.annotation.Preprocessing;
+import tech.intellispaces.core.annotation.Preprocessing;
 
 @Preprocessing(value = Properties.class, artifact = "ObjectHandle", extendWith = PropertiesHandleExtension.class)
 public interface PropertiesHandleExtension<E> {

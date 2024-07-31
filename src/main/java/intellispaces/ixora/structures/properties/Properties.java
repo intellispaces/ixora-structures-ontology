@@ -1,17 +1,16 @@
-package intellispaces.ixora.mindstructs.structures.properties;
+package intellispaces.ixora.structures.properties;
 
-import intellispaces.ixora.mindstructs.structures.collection.DoubleList;
-import intellispaces.ixora.mindstructs.structures.exception.InvalidPropertyException;
-import intellispaces.ixora.mindstructs.structures.collection.IntegerList;
-import tech.intellispaces.framework.core.annotation.Domain;
-import tech.intellispaces.framework.core.annotation.Transition;
-import intellispaces.ixora.mindstructs.structures.collection.StringList;
+import intellispaces.ixora.core.Point;
+import intellispaces.ixora.structures.collection.List;
+import intellispaces.ixora.structures.exception.InvalidPropertyException;
+import tech.intellispaces.core.annotation.Domain;
+import tech.intellispaces.core.annotation.Transition;
 
 /**
  * Properties are a hierarchical set of named properties.
  */
 @Domain("eccd18a1-ec7a-4949-9acd-2b2fa9576da1")
-public interface Properties {
+public interface Properties extends Point {
 
   @Transition("ea111b97-c025-4d74-8466-d462c4c87efd")
   Object value(String path) throws InvalidPropertyException;
@@ -29,16 +28,16 @@ public interface Properties {
   Properties propertiesValue(String path) throws InvalidPropertyException;
 
   @Transition("e8e1fb09-b22e-4e66-bee5-34db85e4ada3")
-  IntegerList integerList(String path) throws InvalidPropertyException;
+  List<Integer> integerList(String path) throws InvalidPropertyException;
 
   @Transition("101bf792-aa89-4114-ba58-26d78487a4a5")
-  DoubleList doubleList(String path) throws InvalidPropertyException;
+  List<Double> doubleList(String path) throws InvalidPropertyException;
 
   @Transition("f6d6c228-cfe0-4bcd-80b8-b0bd23e606c7")
-  StringList stringList(String path) throws InvalidPropertyException;
+  List<String> stringList(String path) throws InvalidPropertyException;
 
   @Transition("b48ef2de-6bbc-4c9c-a0b1-e3f1c6ca33d1")
-  PropertiesList propertiesList(String path) throws InvalidPropertyException;
+  List<Properties> propertiesList(String path) throws InvalidPropertyException;
 
   @Transition("d1b7dcf8-b8d5-41d0-8d19-6faee74a852c")
   int size();

@@ -1,6 +1,6 @@
-package intellispaces.ixora.mindstructs.structures.exception;
+package intellispaces.ixora.structures.exception;
 
-import tech.intellispaces.framework.core.exception.TraverseException;
+import tech.intellispaces.core.exception.TraverseException;
 
 public class InvalidPropertyException extends TraverseException {
 

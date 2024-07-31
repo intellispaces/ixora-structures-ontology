@@ -1,8 +1,9 @@
-package intellispaces.ixora.mindstructs.structures.collection;
+package intellispaces.ixora.structures.collection;
 
-import tech.intellispaces.framework.core.annotation.Domain;
-import tech.intellispaces.framework.core.annotation.Transition;
-import tech.intellispaces.framework.core.traverse.TraverseTypes;
+import intellispaces.ixora.core.Point;
+import tech.intellispaces.core.annotation.Domain;
+import tech.intellispaces.core.annotation.Transition;
+import tech.intellispaces.core.traverse.TraverseTypes;
 
 /**
  * One-way cursor.
@@ -10,7 +11,7 @@ import tech.intellispaces.framework.core.traverse.TraverseTypes;
  * @param <E> cursor element type.
  */
 @Domain("3826cfd5-1b2a-4441-86b7-6ff0a9b2a7cd")
-public interface Cursor<E> {
+public interface Cursor<E> extends Point {
 
   @Transition("4d445fd4-4088-49a5-b0ba-fffd8c443b13")
   Collection<E> collection();
