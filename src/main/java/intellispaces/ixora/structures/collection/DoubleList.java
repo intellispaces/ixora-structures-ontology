@@ -2,6 +2,8 @@ package intellispaces.ixora.structures.collection;
 
 import tech.intellispaces.core.annotation.Domain;
 import tech.intellispaces.core.annotation.Transition;
+import tech.intellispaces.javastatements.type.Type;
+import tech.intellispaces.javastatements.type.Types;
 
 @Domain("019081ff-e48c-773d-b6af-f6f3ec15ced9")
 public interface DoubleList extends NumberList<Double> {
@@ -20,8 +22,8 @@ public interface DoubleList extends NumberList<Double> {
   List<Double> asList();
 
   @Override
-  default Class<Double> elementDomain() {
-    return Double.class;
+  default Type<Double> elementDomain() {
+    return Types.of(Double.class);
   }
 
   @Override

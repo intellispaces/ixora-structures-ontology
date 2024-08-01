@@ -1,6 +1,8 @@
 package intellispaces.ixora.structures.properties;
 
 import intellispaces.ixora.core.Point;
+import intellispaces.ixora.structures.collection.DoubleList;
+import intellispaces.ixora.structures.collection.IntegerList;
 import intellispaces.ixora.structures.collection.List;
 import intellispaces.ixora.structures.exception.InvalidPropertyException;
 import tech.intellispaces.core.annotation.Domain;
@@ -28,10 +30,10 @@ public interface Properties extends Point {
   Properties propertiesValue(String path) throws InvalidPropertyException;
 
   @Transition("e8e1fb09-b22e-4e66-bee5-34db85e4ada3")
-  List<Integer> integerList(String path) throws InvalidPropertyException;
+  IntegerList integerList(String path) throws InvalidPropertyException;
 
   @Transition("101bf792-aa89-4114-ba58-26d78487a4a5")
-  List<Double> doubleList(String path) throws InvalidPropertyException;
+  DoubleList doubleList(String path) throws InvalidPropertyException;
 
   @Transition("f6d6c228-cfe0-4bcd-80b8-b0bd23e606c7")
   List<String> stringList(String path) throws InvalidPropertyException;
