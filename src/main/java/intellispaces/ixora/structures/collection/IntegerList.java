@@ -11,15 +11,21 @@ public interface IntegerList extends NumberList<Integer> {
   /**
    * Downgrade mapping.
    */
-  @Override
-  @Transition("01909080-8b2e-798a-8467-150465a39848")
-  Collection<Integer> asCollection();
+  @Transition("35c4c1c4-0bae-489a-9a20-2259eb58c135")
+  NumberList<Integer> asNumberList();
 
   /**
    * Downgrade mapping.
    */
   @Transition("0190824d-8716-7f90-8c49-fa9a6ee24bcb")
   List<Integer> asList();
+
+  /**
+   * Downgrade mapping.
+   */
+  @Override
+  @Transition("01909080-8b2e-798a-8467-150465a39848")
+  Collection<Integer> asCollection();
 
   @Override
   default Type<Integer> elementDomain() {
