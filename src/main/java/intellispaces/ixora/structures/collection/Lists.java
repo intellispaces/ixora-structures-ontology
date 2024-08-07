@@ -1,6 +1,6 @@
 package intellispaces.ixora.structures.collection;
 
-import tech.intellispaces.actions.Getter;
+import tech.intellispaces.actions.getter.Getter;
 
 public final class Lists {
 //  private static final Getter<ObjectProvider2<UnmovableListHandle, java.util.List, Class>> LIST_BY_NATIVE_LIST_GETTER;
